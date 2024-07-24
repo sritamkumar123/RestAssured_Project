@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T23:28:53 IST" name="Default suite" finished-at="2024-07-24T23:28:54 IST" duration-ms="1397">
+    <groups>
+    </groups>
+    <test started-at="2024-07-24T23:28:53 IST" name="Default test" finished-at="2024-07-24T23:28:54 IST" duration-ms="1397">
+      <class name="FristGetRequest">
+        <test-method signature="testCase01()[pri:0, instance:FristGetRequest@38cee291]" started-at="2024-07-24T23:28:53 IST" name="testCase01" finished-at="2024-07-24T23:28:54 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- FristGetRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
