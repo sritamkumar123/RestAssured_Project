@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AssertStatusCode">
+      <class name="basicAndDigestAuth">
         <methods>
-          <include name="bbdApproach"/>
+          <include name="digestAuth"/>
         </methods>
-      </class> <!-- AssertStatusCode -->
+      </class> <!-- basicAndDigestAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
