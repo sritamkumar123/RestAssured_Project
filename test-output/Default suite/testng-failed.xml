@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_delete_API">
+      <class name="AssertStatusCode">
         <methods>
-          <include name="delete_api"/>
+          <include name="bbdApproach"/>
         </methods>
-      </class> <!-- Test_delete_API -->
+      </class> <!-- AssertStatusCode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
