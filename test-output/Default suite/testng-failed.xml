@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicAndDigestAuth">
+      <class name="bearer_token">
         <methods>
-          <include name="digestAuth"/>
+          <include name="bearer_method"/>
         </methods>
-      </class> <!-- basicAndDigestAuth -->
+      </class> <!-- bearer_token -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

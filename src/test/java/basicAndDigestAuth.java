@@ -27,7 +27,7 @@ public class basicAndDigestAuth {
 	}
 	@Test
 	
-	void digestAuth() {
+	public void digestAuth() {
 		RequestSpecification reqSpec = given();
 		
 		reqSpec.baseUri("https://httpbin.org");
