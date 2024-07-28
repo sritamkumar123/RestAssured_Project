@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonArraywithJsonObject">
+      <class name="fileUploadAction">
         <methods>
-          <include name="jsonArrayWithObject"/>
+          <include name="uploadFileReal"/>
         </methods>
-      </class> <!-- jsonArraywithJsonObject -->
+      </class> <!-- fileUploadAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

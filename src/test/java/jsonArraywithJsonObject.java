@@ -89,7 +89,6 @@ public class jsonArraywithJsonObject {
 		
 		Assert.assertEquals(res.statusCode(), 201,"Status code is not matching");
 		
-		
 	}
 
 }
