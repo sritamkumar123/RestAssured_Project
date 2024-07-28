@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-27T10:28:18 IST" name="Default suite" finished-at="2024-07-27T10:28:20 IST" duration-ms="2093">
+  <suite started-at="2024-07-28T08:35:04 IST" name="Default suite" finished-at="2024-07-28T08:35:06 IST" duration-ms="2038">
     <groups>
     </groups>
-    <test started-at="2024-07-27T10:28:18 IST" name="Default test" finished-at="2024-07-27T10:28:20 IST" duration-ms="2093">
-      <class name="api_key">
-        <test-method signature="apiKey_method()[pri:0, instance:api_key@f09733f]" started-at="2024-07-27T10:28:18 IST" name="apiKey_method" finished-at="2024-07-27T10:28:20 IST" duration-ms="2061" status="PASS">
+    <test started-at="2024-07-28T08:35:04 IST" name="Default test" finished-at="2024-07-28T08:35:06 IST" duration-ms="2038">
+      <class name="jsonObjectUsingMap">
+        <test-method signature="complexJsonObject()[pri:0, instance:jsonObjectUsingMap@7e7be63f]" started-at="2024-07-28T08:35:04 IST" name="complexJsonObject" finished-at="2024-07-28T08:35:06 IST" duration-ms="2016" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apiKey_method -->
-      </class> <!-- api_key -->
+        </test-method> <!-- complexJsonObject -->
+      </class> <!-- jsonObjectUsingMap -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
