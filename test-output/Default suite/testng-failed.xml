@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonObjectUsingMap">
+      <class name="jsonArraywithJsonObject">
         <methods>
-          <include name="createSimpleObject"/>
+          <include name="jsonArrayWithObject"/>
         </methods>
-      </class> <!-- jsonObjectUsingMap -->
+      </class> <!-- jsonArraywithJsonObject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
