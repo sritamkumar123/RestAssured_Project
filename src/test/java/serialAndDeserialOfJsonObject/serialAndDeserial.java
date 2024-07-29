@@ -1,3 +1,4 @@
+package serialAndDeserialOfJsonObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,6 +9,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import pojoPackage.pojoClass;
 
 public class serialAndDeserial {
 

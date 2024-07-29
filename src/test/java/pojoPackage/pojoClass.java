@@ -1,3 +1,4 @@
+package pojoPackage;
 
 public class pojoClass {
 	

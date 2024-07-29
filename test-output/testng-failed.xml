@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fileUploadAction">
+      <class name="jsonArraySerialization.jsonArrayToJsonString">
         <methods>
-          <include name="uploadFileReal"/>
+          <include name="jsonArrayToString"/>
         </methods>
-      </class> <!-- fileUploadAction -->
+      </class> <!-- jsonArraySerialization.jsonArrayToJsonString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
