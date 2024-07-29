@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-29T18:24:04 IST" name="Default suite" finished-at="2024-07-29T18:24:05 IST" duration-ms="1788">
+  <suite started-at="2024-07-29T21:06:48 IST" name="Default suite" finished-at="2024-07-29T21:06:50 IST" duration-ms="2015">
     <groups>
     </groups>
-    <test started-at="2024-07-29T18:24:04 IST" name="Default test" finished-at="2024-07-29T18:24:05 IST" duration-ms="1788">
-      <class name="NestedObjectToString.ConvertNestedObjectToString">
-        <test-method signature="nestedObjToString()[pri:0, instance:NestedObjectToString.ConvertNestedObjectToString@66d3eec0]" started-at="2024-07-29T18:24:04 IST" name="nestedObjToString" finished-at="2024-07-29T18:24:05 IST" duration-ms="1761" status="PASS">
+    <test started-at="2024-07-29T21:06:48 IST" name="Default test" finished-at="2024-07-29T21:06:50 IST" duration-ms="2015">
+      <class name="ComplexObjectToString.ConvertObjectToString">
+        <test-method signature="nestedObjectTostring()[pri:0, instance:ComplexObjectToString.ConvertObjectToString@66d3eec0]" started-at="2024-07-29T21:06:48 IST" name="nestedObjectTostring" finished-at="2024-07-29T21:06:50 IST" duration-ms="1990" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- nestedObjToString -->
-      </class> <!-- NestedObjectToString.ConvertNestedObjectToString -->
+        </test-method> <!-- nestedObjectTostring -->
+      </class> <!-- ComplexObjectToString.ConvertObjectToString -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
