@@ -39,5 +39,6 @@ public class IgnoreUnknownProperties {
 		PojoProperties resObj = objMapper.readValue(resString, PojoProperties.class);
 		
 		System.out.println("Firstname is: "+resObj.getFirstname());
+		
 	}
 }

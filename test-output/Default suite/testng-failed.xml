@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IgnoreUnknownProperties.IgnoreUnknownProperties">
+      <class name="MockAPisAndSerial_Deserial.MockAPIResponse">
         <methods>
-          <include name="ignoreUnknownFromResponse"/>
+          <include name="mockAPiResponse"/>
         </methods>
-      </class> <!-- IgnoreUnknownProperties.IgnoreUnknownProperties -->
+      </class> <!-- MockAPisAndSerial_Deserial.MockAPIResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
