@@ -47,7 +47,7 @@ public class ReqHeadersImplemention {
 		Assert.assertEquals(res.statusCode(), 200,"Status code is not matching");
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void usingHeaderClass() {
 		
 		//create multiple header object with key value pairs
@@ -71,6 +71,23 @@ public class ReqHeadersImplemention {
 		Response res = reqSpec.get("/2");
 		res.prettyPrint();
 		Assert.assertEquals(res.statusCode(), 200, "Status code is not matching");
+		
+		
+	}
+	
+	@Test
+	
+	public void bddApproach() {
+		
+		RestAssured.given()
+		.baseUri("https://reqres.in/api").basePath("/users")
+		.header("Content-Type","application/json").log().headers().
+		
+		when().get("/2").
+		
+		then().statusCode(200).log().headers();
+		
+		
 		
 	}
 }
