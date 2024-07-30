@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ComplexObjectToString.ConvertObjectToString">
+      <class name="IgnoreUnknownProperties.IgnoreUnknownProperties">
         <methods>
-          <include name="nestedObjectTostring"/>
+          <include name="ignoreUnknownFromResponse"/>
         </methods>
-      </class> <!-- ComplexObjectToString.ConvertObjectToString -->
+      </class> <!-- IgnoreUnknownProperties.IgnoreUnknownProperties -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
