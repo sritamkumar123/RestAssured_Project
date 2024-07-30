@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MockAPisAndSerial_Deserial.MockAPIResponse">
+      <class name="ResponseBuilder_Specification.ResBuilderAndSpec">
         <methods>
-          <include name="mockAPiResponse"/>
+          <include name="validateResponse"/>
+          <include name="createBuilder"/>
         </methods>
-      </class> <!-- MockAPisAndSerial_Deserial.MockAPIResponse -->
+      </class> <!-- ResponseBuilder_Specification.ResBuilderAndSpec -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
