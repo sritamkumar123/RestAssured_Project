@@ -22,6 +22,7 @@ public class SchemaJsonValidator {
 		.when().get("/2").then().assertThat()
 		.statusCode(200)
 		.body("data",Matchers.notNullValue())
-		.body(JsonSchemaValidator.matchesJsonSchema(obj));
+		//.body(JsonSchemaValidator.matchesJsonSchema(obj));
+		.body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchemaValidator.json"));
 	}
 }
