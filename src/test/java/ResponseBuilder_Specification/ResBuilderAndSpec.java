@@ -25,19 +25,17 @@ public class ResBuilderAndSpec {
 		resBuilder.expectContentType(ContentType.JSON);
 		resBuilder.expectStatusLine("HTTP/1.1 200 OK");
 		resBuilder.expectResponseTime(Matchers.lessThan(3000L));
-		resSpec = resBuilder.build();
+		 resSpec = resBuilder.build();
 	}
 
 	@Test
 	public void validateResponse() {
 		
-		Resonse res = RestAssured.given()
+		RestAssured.given()
 		.baseUri("https://reqres.in/api").basePath("/users")
 		.contentType(ContentType.JSON)
 		.when().get("/2")
-		.then().spec(resSpec).extract().response();
-
-		res.prettyPrint();	
+		.then().spec(resSpec);
 		
 	}
 	
@@ -51,6 +49,7 @@ public class ResBuilderAndSpec {
 		Response res = reqSpec.get("/2");
 		
 		res.then().spec(resSpec);
+		
 		res.prettyPrint();
 	}
 }

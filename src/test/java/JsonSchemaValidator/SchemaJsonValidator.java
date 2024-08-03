@@ -23,6 +23,6 @@ public class SchemaJsonValidator {
 		.statusCode(200)
 		.body("data",Matchers.notNullValue())
 		//.body(JsonSchemaValidator.matchesJsonSchema(obj));
-		.body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchemaValidator.json"));
+		.body(JsonSchemaValidator.matchesJsonSchemaInClasspath("jsonSchemaValidator.json")).log().body();
 	}
 }

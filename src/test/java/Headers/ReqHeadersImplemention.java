@@ -86,8 +86,6 @@ public class ReqHeadersImplemention {
 		when().get("/2").
 		
 		then().statusCode(200).log().headers();
-		
-		
-		
+			
 	}
 }
