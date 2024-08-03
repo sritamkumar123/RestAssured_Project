@@ -31,11 +31,13 @@ public class ResBuilderAndSpec {
 	@Test
 	public void validateResponse() {
 		
-		RestAssured.given()
+		Resonse res = RestAssured.given()
 		.baseUri("https://reqres.in/api").basePath("/users")
 		.contentType(ContentType.JSON)
 		.when().get("/2")
-		.then().spec(resSpec);
+		.then().spec(resSpec).extract().response();
+
+		res.prettyPrint();	
 		
 	}
 	
